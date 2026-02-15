@@ -126,25 +126,5 @@ int main() {
 
   printf("Super Poder: %s (%d)\n", superPoder1 > superPoder2 ? "Carta 1 venceu" : "Carta 2 venceu", superPoder1 > superPoder2);
 
-  //Atributo
-
-  printf("\nComparacao de Cartas(Atributo: Area\n)");
-
-printf("Carta 1 - %s: %.2f\n",cidade1,area1);
-printf("Carta 2 - %s: %.2f\n",cidade2,area2);
-
-if(area1>area2){
-    printf("%Resultado: Carta1(%s) venceu\n", cidade1);
-}
-else{
-    if(area2>area1){
-        printf("%Resultado: Carta1(%s) venceu\n", cidade2);
-    }
-}
-
-  
-  
-  
-
   return 0;
 }
